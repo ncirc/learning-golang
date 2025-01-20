@@ -1,3 +1,3 @@
-module goroutines01
+module github.com/ncirc/learning-golang/goroutines01
 
 go 1.23

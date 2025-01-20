@@ -6,6 +6,8 @@ import (
 	"time"
 )
 
+// source information by https://trstringer.com/concurrent-error-handling-go/
+
 func oddNumsCauseErrs(chNums <-chan int, chErrs chan<- error) {
 	// for-loop will block until a number is received over the channel
 	for num := range chNums {
